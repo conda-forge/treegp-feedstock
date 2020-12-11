@@ -5,11 +5,9 @@ Home: https://github.com/PFLeget/treegp
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/treegp-feedstock/blob/master/LICENSE.txt)
 
 Summary: treegp is a python gaussian process code that perform 1D and 2D interpolation.
-
-
 
 Current build status
 ====================
