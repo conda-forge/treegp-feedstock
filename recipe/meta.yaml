@@ -1,5 +1,5 @@
 {% set name = "treegp" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 98c73a19cea1f88361bee77cac7db578de8bbc0d7c92b137c1da66bfa14f0bf8
+  sha256: 6749defa1201246be22c11a59f4092acb591ec89612f1fc25da25a92202e14f2
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -35,7 +35,7 @@ about:
   home: https://github.com/PFLeget/treegp
   license: BSD-3-Clause
   license_file: LICENCE
-  summary: 'treegp is a python gaussian process code that perform 1D and 2D interpolation.'
+  summary: treegp is a python gaussian process code that perform 1D and 2D interpolation.
 
 extra:
   recipe-maintainers:
