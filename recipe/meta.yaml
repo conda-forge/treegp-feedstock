@@ -1,5 +1,5 @@
 {% set name = "treegp" %}
-{% set version = "1.4.0" %}
+{% set version = "1.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 8d9b0acfe17f9fd0c7ce27dd478844b8bfd9fe96bfca8c68489b2d9783edcf9c
+  sha256: 4c589c703fd3c1438a3ab19d96f72edb16d90b7731ef9ef71926a759d755c703
 
 build:
   noarch: python
